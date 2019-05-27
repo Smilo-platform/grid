@@ -93,12 +93,6 @@ const checkConnection = async (host, port, timeout = 2000) => {
   })
 }
 
-// Step 0
-const initialize = async geth => {
-  // IMPORTANT don't await here: menu construction will defer startup
-  initializeMenu(geth)
-}
-
 // Step 1 - configure and start user interface
 const startWithDevConfig = async appUrl => {
   const {
