@@ -2,11 +2,11 @@
 <img src="https://user-images.githubusercontent.com/47108/53807420-80433380-3f1d-11e9-80cd-967aabb26506.png" width="524" />
 </p>
 
-[![CircleCI](https://circleci.com/gh/ethereum/grid/tree/master.svg?style=svg)](https://circleci.com/gh/ethereum/grid/tree/master)
+[![CircleCI](https://circleci.com/gh/Smilo-platform/grid/tree/master.svg?style=svg)](https://circleci.com/gh/Smilo-platform/grid/tree/master)
 
 # Enter the Grid
 
-This is the hosting application for [Grid UI](https://github.com/ethereum/grid-ui) and can be considered a [Mist](https://github.com/ethereum/Mist) alternative in the long run.
+This is the hosting application for [Grid UI](https://github.com/Smilo-platform/grid-ui) and can be considered a [Mist](https://github.com/Smilo-platform/Mist) alternative in the long run.
 This project ensures that the user can update, configure and run the Grid UI web app and client binaries, such as geth.
 
 ### Quick Start
@@ -14,7 +14,7 @@ This project ensures that the user can update, configure and run the Grid UI web
 Install and run Grid UI:
 
 ```
-git clone https://github.com/ethereum/grid-ui.git
+git clone https://github.com/Smilo-platform/grid-ui.git
 cd grid-ui
 yarn && yarn start
 ```
@@ -22,7 +22,7 @@ yarn && yarn start
 Install and run Grid:
 
 ```
-git clone https://github.com/ethereum/grid.git
+git clone https://github.com/Smilo-platform/grid.git
 cd grid
 yarn && yarn start:dev
 ```
